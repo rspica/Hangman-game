@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Botstrap Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,semi-bold|Bungee+Outline|Bungee+Shade" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+</head>
+
+<body>
+	<main>
+		<header>
+			<div class="container">
+				<div class="row">			
+					<h1>This is Hangman</h1>
+				</div><!-- closes BS row -->
+			</div><!-- closes BS container -->
+
+		</header>
+
+<!-- shows number of remaining guesses and letters already guessed -->
+			<div class="container">
+				<div class="row">
+					<div>press any letter key to start</div>
+					<div id="showLives"><span id="lives"></span> lives remaining</div>
+					<div id="letterGuessed">letters guessed:</div>
+				</div><!-- closes BS row -->
+			</div><!-- closes BS container -->
+
+<!-- shows the placeholders for the hangman word in play -->
+			<div class="container">
+				<div class="row">
+					<div id="h_manWordLength">current word:</div>
+				</div><!-- closes BS row -->
+			</div><!-- closes BS container -->
+
+
+
+
+	</main>
+
+<script type="text/javascript" src="./assets/main.js"></script>
+	
+</body>
+</html>
